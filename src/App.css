@@ -1,0 +1,223 @@
+
+*{
+  margin:0;
+  padding:0;
+box-sizing: border-box;
+}
+
+nav{
+  padding:10px;
+}
+.logo{
+  width:24px;
+
+}
+
+.sec-1{
+  width:100vw;
+
+overflow: hidden;
+}
+.text-cont{
+  width: 50%;
+
+}
+.img-cont{
+  width:53%;
+  margin-bottom: -12px;
+  margin-right: -17px;
+}
+
+.btn-primary{
+  background:white;
+  border:1.2px solid rgb(51, 0, 218);
+  
+   Padding:2px;
+   
+}
+.btn-secondary{
+  background:rgb(3, 29, 147);
+  outline:1px solid black;
+  
+   border-radius: 20px;
+}
+
+.container-1{
+  width:100vw;
+}
+
+.sec-div{
+width:100vw;
+}
+.people{
+  clip-path:url(#clip);
+position: relative;
+}
+ .yellow-div{
+clip-path: url(#clip);
+z-index: -2;
+position:absolute;
+height: 110px;
+    width: 267px;
+background: yellow;
+bottom:9px;
+    left: -107px;
+
+ }
+.svg{
+  position:absolute;
+  width:0;
+  height:0;
+
+}
+
+
+
+.background-img{
+  background-image: url(/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+  clip-path: url(#clip);
+ 
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+ width:100%;
+ height: 420px;
+ 
+}
+
+
+.sec-2{
+  width:100vw;
+  height: 100vh;
+ 
+}
+.blue-div{
+background-color:rgb(0, 0, 255);
+position: absolute;
+clip-path: polygon(0 0, 100% 0%, 86% 48%, 0 49%);
+height:60%;
+z-index: -12;
+width:50.5%;
+}
+
+.bg-card-2{
+background-image:url(/public/stock-624712_1280.jpg) ;
+
+background-repeat: no-repeat;
+background-position: center;
+
+background-size: cover;
+}
+.bg-card-3{
+background-image: url("/public/bitcoin-8626337_1280.jpg");
+background-repeat: no-repeat;
+background-position: center;
+
+background-size: cover;
+}
+.bg-card-4{
+background-image: url("/public/money-2724235_1280.jpg");
+background-repeat: no-repeat;
+background-position: center;
+
+background-size: cover;
+}
+.bg-card-5{
+  background-image: url("/public/pexels-tima-miroshnichenko-5198250.jpg");
+background-repeat: no-repeat;
+background-position: centre/top;
+
+background-size: cover;
+}
+.bg-card-6{
+  background-image: url("");
+background-repeat: no-repeat;
+background-position: center;
+
+background-size: cover;
+}
+ .mt-126{
+margin-top: 466px;
+ }
+
+.women-img{
+  background-image: url("/public/pexels-andrea-piacquadio-3771088.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height:650px;
+  width:vw;
+  clip-path: url(#clip-2);
+  background-size: cover;
+ }
+ 
+
+ .cards-adv{
+  margin-top:160px;
+ }
+
+
+
+ .card-image{
+  clip-path:url(#clip);
+ }
+ .card-image4{
+  clip-path: url(#clip-3);
+ }
+ 
+ li{
+  font-size: 1rem;
+  margin-left:12px;
+ }
+
+
+ @media screen and (max-width: 700px){
+  .sec-1{
+    margin:0 auto;
+  }
+  .sec-2{
+   height: 1000px;
+  }
+  .sec-3{
+    margin:0 auto;
+   top:600px !important;
+    height: 1200px;
+  }
+
+  
+  .add-box{
+    width:300px !important;
+    font-size: 18px !important;
+    top:390px;
+  }
+  .footer-items{
+    flex-direction: column !important;
+  }
+  .top-nav{
+      flex-direction:column !important;
+    }
+    nav-btns{
+      margin-top: 12px;
+      }
+      
+      .bottom-nav-items{
+        flex-direction: column !important;
+      }
+      .bottom-ui{
+        margin-top: 20px;
+      }
+      
+li{
+  margin-top: 22px;
+}
+.sec-4{
+  height: 8500px !important;
+}
+ }
+
+ @media screen and (max-width: 1610px){
+
+
+
+
+ }
